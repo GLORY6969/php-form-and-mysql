@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  background-image: url("../img/source.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  color: brown;
+}
+
+
+form {
+  padding: 100px 300px 0 300px;
+}
+label {
+  font-weight: bold;
+  padding-top: 5px;
+}
+.btn {
+  margin-left: 180px;
+  margin-top: 10px;
+  padding: 5px 50px;
+}
+@media screen and (max-width: 576px) {
+  form {
+    padding: 50px;
+  }
+  .btn {
+    margin-left: 85px;
+    margin-right: 85px;
+    margin-top: 10px;
+    padding: 5px 30px;
+  }
+}
+.profile {
+  /* width: 200px;
+  height: 200px; */
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 200px;
+  color: gold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.profile .container{
+  background: linear-gradient(black,transparent);
+  width: 30%;
+  height: 80%;
+  border-radius: 25px;
+
+}
+.profile a {
+  color: aliceblue;
+  border: 1px solid #fff;
+  text-decoration: none;
+  padding: 5px 30px;
+  background-color: transparent;
+  border-radius: 10px;
+  font-family: monospace;
+  
+}
+.profile a:hover{
+  color: black;
+  background: #fff;
+  font-size: 110%;
+  transition: 1s;
+}
